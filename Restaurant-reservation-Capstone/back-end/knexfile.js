@@ -8,10 +8,10 @@ require('dotenv').config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgres://giycbdcz:rlRAySOsQh9sky1dIgpHJEeUdndbJqUS@berry.db.elephantsql.com/giycbdcz",
-  DATABASE_URL_DEVELOPMENT = "postgres://giycbdcz:rlRAySOsQh9sky1dIgpHJEeUdndbJqUS@berry.db.elephantsql.com/giycbdcz",
-  DATABASE_URL_TEST = "postgres://giycbdcz:rlRAySOsQh9sky1dIgpHJEeUdndbJqUS@berry.db.elephantsql.com/giycbdcz",
-  DATABASE_URL_PREVIEW = "postgres://giycbdcz:rlRAySOsQh9sky1dIgpHJEeUdndbJqUS@berry.db.elephantsql.com/giycbdcz",
+  DATABASE_URL = "postgres://kqmxheeg:FDWhKbm06iiHRL9nORyS8YGTWx3AH63b@bubble.db.elephantsql.com/kqmxheeg",
+  DATABASE_URL_DEVELOPMENT = "postgres://kqmxheeg:FDWhKbm06iiHRL9nORyS8YGTWx3AH63b@bubble.db.elephantsql.com/kqmxheeg",
+  DATABASE_URL_TEST = "postgres://kqmxheeg:FDWhKbm06iiHRL9nORyS8YGTWx3AH63b@bubble.db.elephantsql.com/kqmxheeg",
+  DATABASE_URL_PREVIEW = "postgres://kqmxheeg:FDWhKbm06iiHRL9nORyS8YGTWx3AH63b@bubble.db.elephantsql.com/kqmxheeg",
   DEBUG,
 } = process.env;
 
